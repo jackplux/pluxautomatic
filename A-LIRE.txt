@@ -1,12 +1,5 @@
 Envoyez les fichiers et répertoires à la racine de votre site exactement tels que vous les voyez ici.
 
-Nouveau !
-
-Un gestionnaire de fichiers est disponible dans le plugin mais il faut des identifiants pour l'utiliser.
-
-Login : testov
-Passe : testov
-
 Des instructions sont disponibles dans l'aide du plugin.
  
 
