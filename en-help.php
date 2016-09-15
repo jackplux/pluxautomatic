@@ -8,9 +8,7 @@ The plugin-automatic plux principle is to copy an archive in a directory named "
 
 With the plugin, you give a name to your test sites (always a single word), can remove when you no longer need and even purge the entire directory "sites" with a single click. Everything else is done alone. ;) <br /> <br />
 
-<Strong> Known issue troubleshooting</ strong> <br /> <br />
 
-In Firefox, click on a check box opens the site but remains checked. This bug does not occur with Chrome. <br />
 
 
 
