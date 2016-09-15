@@ -43,13 +43,13 @@ htmlspecialchars($pass);
  $url2='$url';$script='if ($url) {header("Location: $url");} else if($QUERY_STRING) {header("Location: ".urldecode($QUERY_STRING));} else {echo "Error bad URL 2 ";} ?>  <br><br>Bonjour '.$depart.',<br><br>Votre site a été créé, il ne reste plus qu\'a le configurer, c\'est très simple:<a href=\'/site/install\'>IcI</a><br>       <p align="right">Bonne visite '.$nom.' !</p>';
 
  if(is_dir("$depart")){
- echo "Le nom de domaine <b><i>(http://boutique.reseauk.info/$depart/)</i></b> est deja utilise.";
+ echo "Le nom de domaine <b><i>(http://Votre-URL/$depart/)</i></b> est deja utilise.";
  }
 
 
 
-$dir_dest = "sites/$depart";
-$dir_source = 'PluXml';
+$dir_dest = "../../sites/$depart";
+$dir_source = '../../PluXml';
 
 
 mkdir($dir_dest, 0755);
@@ -112,7 +112,7 @@ body
 
 <p><strong>Votre site est en ligne 
 
-<?php echo " $depart <br></b> et son adresse est votre URL/sites/$depart/</b>.<br><br>Pour y aller <a href='sites/$depart/' class='ici'>Cliquez ici</a>";
+<?php echo " $depart <br></b> et son adresse est votre URL/sites/$depart/</b>.<br><br>Pour y aller <a href='../../sites/$depart/' class='ici'>Cliquez ici</a>";
   ?>
 
 
