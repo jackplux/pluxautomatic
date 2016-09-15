@@ -1,4 +1,8 @@
-Envoyez les fichiers et répertoires à la racine de votre site exactement tels que vous les voyez ici.
+Envoyez le dossier pluxautomatic dans le répertoire "plugins" et crééz à la racine de votre pluxml un dossier "sites".
+
+ATTENTION : Il manque ici un repertoire "PluXml" qui contient le site à copier (qui ira lui aussi à la racine) et je vous conseille de télécharger le plugin complet ou sa mise à jour ici.
+
+josuetro.onlinewebshop.net
 
 Des instructions sont disponibles dans l'aide du plugin.
  
