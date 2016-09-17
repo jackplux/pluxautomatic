@@ -35,7 +35,9 @@ $liste_dossiers = '<h3>Liste des sites actuels :</h3> <ul>';
 //$liste_fichiers = '<h3>Liste des fichiers accessibles :</h3><ul>';
 foreach($tab as $file){
   if(is_dir($path.$file))
-    $liste_dossiers .= '<li><label><a href="'.$path.''.$file.'"target=_blank><input type="checkbox" name="del_dir[]" value="'.$path.$file.'/" /> '.$file.'</label></li>';
+    $liste_dossiers .= '<li><input type="checkbox" name="del_dir[]" value="'.$path.$file.'/" /><label><a href="'.$path.''.$file.'"target=_blank" > '.$file.'</a></label></li>';
+    
+    //$liste_dossiers .= '<li><label><a href="'.$path.''.$file.'"target=_blank><input type="checkbox" name="del_dir[]" value="'.$path.$file.'/" /> '.$file.'</label></li>';
   else
     $liste_fichiers .= '<!--<li><label><input type="checkbox" name="del_file[]" value="'.$path.$file.'" /> '.$file.'</label></li>-->';
 }
